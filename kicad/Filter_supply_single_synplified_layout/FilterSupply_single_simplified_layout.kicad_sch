@@ -1,0 +1,205 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 1ffa0a97-e975-4d93-aba3-7682c83b2b27)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 05476a34-406c-4cf7-8c5a-ca4b4a31342e)
+    (property "Sheet name" "FilterSupply_single_simplified_layout_2" (id 0) (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "FilterSupply_single_simplified_layout_2.kicad_sch" (id 1) (at 76.2 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed)
+    (property "Sheet name" "FilterSupply_single_simplified_layout_1" (id 0) (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "FilterSupply_single_simplified_layout_1.kicad_sch" (id 1) (at 25.4 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page ""))
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed" (page ""))
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e" (page ""))
+  )
+
+  (symbol_instances
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/ae2d5f76-23dd-40a5-b83f-d046e025678e"
+      (reference "#GND1") (unit 1) (value "GND") (footprint "FilterSupply_single_simplified_layout:")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/67083403-6b3b-4d4a-a963-05b2aee4cd48"
+      (reference "#GND2") (unit 1) (value "GND") (footprint "FilterSupply_single_simplified_layout:")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/5ebbba19-51ee-4b6c-aa31-68e14a7a0569"
+      (reference "#P+1") (unit 1) (value "+15V") (footprint "FilterSupply_single_simplified_layout:")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/cf2c0cbe-939b-43de-9998-0251a6f567d1"
+      (reference "#P+2") (unit 1) (value "V+") (footprint "FilterSupply_single_simplified_layout:")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/4a6a2b54-a7c2-427d-bba7-19c305bc24b8"
+      (reference "#P+3") (unit 1) (value "+15V") (footprint "FilterSupply_single_simplified_layout:")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/a2d62633-bf44-4c12-a707-471eac3bf6c6"
+      (reference "#P+4") (unit 1) (value "V+") (footprint "FilterSupply_single_simplified_layout:")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/25729204-7847-4c63-8a01-ca92bb1de211"
+      (reference "#P-1") (unit 1) (value "-15V") (footprint "FilterSupply_single_simplified_layout:")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/bb150319-3c0d-44c4-8964-a95c2ac2ba95"
+      (reference "#P-2") (unit 1) (value "-15V") (footprint "FilterSupply_single_simplified_layout:")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/1cb7a54a-9a2b-4f24-a324-7971b092e29a"
+      (reference "C1") (unit 1) (value "C_MLCC_SMDCMLCC_0805") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0805")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/9f606b1c-8a51-429c-ab0e-64fac13d970c"
+      (reference "C2") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/f3123564-7b39-4153-9b11-896906af3e6a"
+      (reference "C3") (unit 1) (value "C_MLCC_SMDCMLCC_0805") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0805")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/494e22ea-f2a0-4baa-b91e-4b952e28e771"
+      (reference "C4") (unit 1) (value "C_MLCC_SMDCMLCC_0805") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0805")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/9665a370-4e35-4e85-81ca-d7438182803b"
+      (reference "C5") (unit 1) (value "C_MLCC_SMDCMLCC_0805") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0805")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/5be33dfd-2356-42cc-9cb5-977981cf2e09"
+      (reference "C6") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/195de849-1416-4725-b031-a2363ca7bbed"
+      (reference "C7") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/6ee8610d-8b5c-412f-950e-288f47d4caeb"
+      (reference "C8") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/cdf0a73c-2149-4713-a240-7d3f0dffbe2b"
+      (reference "C9") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/7c2b42cb-4e08-4725-a879-28d570fa8929"
+      (reference "C10") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/de2df7e3-7a67-4ba5-8bc6-03e3251c9c76"
+      (reference "C11") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/7f088750-04ef-49c2-9c6b-a8c381692bfa"
+      (reference "C12") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/45dd3ff1-baf0-4a76-bfbc-b421f09c19fc"
+      (reference "C13") (unit 1) (value "C_MLCC_SMDCMLCC_0805") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0805")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/5c082f37-6e42-4f50-8c34-1a5a851fcd1b"
+      (reference "C14") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/57daf6af-e31d-4dd8-ad2f-adffca69e726"
+      (reference "C15") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/c25ea6fb-4ae0-4701-bdb7-ac4303ac8e22"
+      (reference "C16") (unit 1) (value "C_MLCC_SMDCMLCC_0805") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0805")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/6dd65c85-d497-4677-b0c0-06f9a669d32e"
+      (reference "C17") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/d3dc218f-55fb-48ab-a1de-f11b92b61c45"
+      (reference "C18") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/0b0480af-4ec4-4017-b918-5d4bc30647e2"
+      (reference "C19") (unit 1) (value "C_MLCC_SMDCMLCC_0805") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0805")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/5f85fd86-d89e-43da-8d31-5a60ebc63189"
+      (reference "C20") (unit 1) (value "C_MLCC_SMDCMLCC_0805") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0805")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/df7e035a-ccbf-488b-ac16-e0f019a68bec"
+      (reference "C21") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/62991370-0360-4a93-8995-b4961cb52e0b"
+      (reference "C22") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/78c4ae0c-b39c-4df0-9f0c-0ec5166c394e"
+      (reference "C23") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/194c157d-d622-4fd8-be00-f69f61a03684"
+      (reference "C24") (unit 1) (value "C_MLCC_SMDCMLCC_0603") (footprint "FilterSupply_single_simplified_layout:C_MLCC_0603")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/1c125878-f3f7-4c6f-a12a-8f682e0b39ea"
+      (reference "CP1") (unit 1) (value "CAP-POLPANASONIC_F") (footprint "FilterSupply_single_simplified_layout:PANASONIC_F")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/c38d58c5-fe58-4522-9663-821370dda8b0"
+      (reference "CP2") (unit 1) (value "CAP-POLPANASONIC_F") (footprint "FilterSupply_single_simplified_layout:PANASONIC_F")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/0e5a2130-1116-4b3a-9921-8bad83f538a3"
+      (reference "CP3") (unit 1) (value "CAP-POLPANASONIC_F") (footprint "FilterSupply_single_simplified_layout:PANASONIC_F")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/91c25e1f-778e-4a2e-ad36-4a84e146ab03"
+      (reference "CP4") (unit 1) (value "CAP-POLPANASONIC_F") (footprint "FilterSupply_single_simplified_layout:PANASONIC_F")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/bb73babd-00fe-4cbe-97f5-b4a4f31e46e5"
+      (reference "CP5") (unit 1) (value "CAP-POLPANASONIC_F") (footprint "FilterSupply_single_simplified_layout:PANASONIC_F")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/0fa774f1-5ac8-434b-8280-305cbe9e2ec6"
+      (reference "CP6") (unit 1) (value "CAP-POLPANASONIC_F") (footprint "FilterSupply_single_simplified_layout:PANASONIC_F")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/f267a190-4722-439f-bcfe-936798a0c275"
+      (reference "CP7") (unit 1) (value "CAP-POLPANASONIC_F") (footprint "FilterSupply_single_simplified_layout:PANASONIC_F")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/99b3db4c-b81f-4a08-a3ae-b6f35825d314"
+      (reference "CP8") (unit 1) (value "CAP-POLPANASONIC_F") (footprint "FilterSupply_single_simplified_layout:PANASONIC_F")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/ec4456dd-62e9-4dd3-8d16-2f4b76473052"
+      (reference "CP9") (unit 1) (value "CAP-POLPANASONIC_F") (footprint "FilterSupply_single_simplified_layout:PANASONIC_F")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/5069d049-618a-4610-91fb-31bc458fd817"
+      (reference "CP10") (unit 1) (value "CAP-POLPANASONIC_F") (footprint "FilterSupply_single_simplified_layout:PANASONIC_F")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/2352a4bd-3c93-4871-852e-4c105d68c121"
+      (reference "CP11") (unit 1) (value "CAP-POLPANASONIC_F") (footprint "FilterSupply_single_simplified_layout:PANASONIC_F")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/263f2209-379a-431a-9128-3ab5f96b13c1"
+      (reference "CP12") (unit 1) (value "CAP-POLPANASONIC_F") (footprint "FilterSupply_single_simplified_layout:PANASONIC_F")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/042631b6-9b18-4e08-b9dd-fc4ffc61ed85"
+      (reference "JP1") (unit 1) (value "PINHD-1X3") (footprint "FilterSupply_single_simplified_layout:1X03")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/e802fcc1-a93b-4358-97d9-6813c9ced7e6"
+      (reference "JP2") (unit 1) (value "PINHD-1X3") (footprint "FilterSupply_single_simplified_layout:1X03")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/7832474f-7073-4a75-95f9-2c0a0280bb7d"
+      (reference "L1") (unit 1) (value "MSD7342") (footprint "FilterSupply_single_simplified_layout:MSD7342")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/81b4fb76-0903-460e-8cd6-cb8a9f3cad30"
+      (reference "L2") (unit 1) (value "MSD7342") (footprint "FilterSupply_single_simplified_layout:MSD7342")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/9c330fbf-fed1-4c15-9ace-9eca6723d445"
+      (reference "L3") (unit 1) (value "MSD7342") (footprint "FilterSupply_single_simplified_layout:MSD7342")
+    )
+    (path "/d1b9ed02-8e9e-4ea9-8503-8cdc934be2ed/bbc585f2-b4c5-4ef1-8884-539e7428df7f"
+      (reference "L4") (unit 1) (value "MSD7342") (footprint "FilterSupply_single_simplified_layout:MSD7342")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/cae86dd7-194f-4fca-b156-cde116bc74d1"
+      (reference "L5") (unit 1) (value "MSD7342") (footprint "FilterSupply_single_simplified_layout:MSD7342")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/9d80b072-225a-45a9-98ae-df2762ee23ae"
+      (reference "L6") (unit 1) (value "MSD7342") (footprint "FilterSupply_single_simplified_layout:MSD7342")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/28aa2cb5-f781-41f5-9882-92959e1e9f8d"
+      (reference "L7") (unit 1) (value "MSD7342") (footprint "FilterSupply_single_simplified_layout:MSD7342")
+    )
+    (path "/05476a34-406c-4cf7-8c5a-ca4b4a31342e/37569432-f7ca-4813-a4ee-373eb7f694ca"
+      (reference "L8") (unit 1) (value "MSD7342") (footprint "FilterSupply_single_simplified_layout:MSD7342")
+    )
+  )
+)

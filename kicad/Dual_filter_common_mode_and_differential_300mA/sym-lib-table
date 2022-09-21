@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Dual_filter_common_mode_and_differential_300mA-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Dual_filter_common_mode_and_differential_300mA-eagle-import.kicad_sym")(options "")(descr ""))
+)

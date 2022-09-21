@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Dual_filter_common_mode_and_differential_300mA")(type "KiCad")(uri "")(options "")(descr ""))
+)
